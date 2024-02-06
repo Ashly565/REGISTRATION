@@ -12,9 +12,9 @@ body{
 }
 .container{
     background-color: white;
-    width: 430px;
-    padding: 25px;
-    height:653px;
+    width: 400px;
+    padding: 20px;
+    height:640px;
     border-radius: 6px;
     margin-top: 10px;
 }
@@ -27,27 +27,26 @@ h1{
 .formgroup{
     margin-top: 6px;
     padding: 5px;
+    
    }
 
 form{
     padding: 30px 40px;
 
 }
-label{
 
-color:#000000 ;
-}
+
 .formgroup input{
     border: 1px solid ;
     width: 100%;
     padding: 7px;
-    outline: none;
     border-radius: 3px;
+    display: block;
 }
 button{
-width: 360px;
-margin-right: 6px;
-margin-top: 15px;
+width: 100%;
+margin-top: 10px;
+margin-left: 5px;
 padding: 5px;
 background-color: blue;
 color: white;
