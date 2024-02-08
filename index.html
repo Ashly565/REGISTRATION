@@ -5,25 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REGISTRATION</title>
     <link rel="stylesheet" href="reg.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" 
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <h1>Registration</h1>
         <form action="">
             
+
             <div class="formgroup">
                 <label for="">Username</label>
-                <input type="text" name="" id="" placeholder="username" required>
+                <input type="text" name="" id="user" placeholder="username" required>
+                <label for="" id="usererror">Enter minimum 5 letters </label>
             </div>
             
             <div class="formgroup">
                 <label for="">Password</label>
- <input type="password" name="" id="" placeholder="password" required>
+ <input type="password" name="" id="pass" placeholder="password" required>
+ <label for="" id="passerror">Enter minimum 8 charectors</label>
 </div>
 
 <div class="formgroup">
     <label for=""> confirm Password</label>
- <input type="password" name="" id="" placeholder=" confirm password" required>
+ <input type="password" name="" id="cpass" placeholder=" confirm password" required>
+ <label for="" id="cpasserror">Enter minimum 8 charectors</label>
 </div>
 
 <div class="formgroup">
@@ -42,7 +48,8 @@
 
 <div class="formgroup">
     <label for="">Phone number</label>
- <input type="tel" name="" id="" placeholder="number" required>
+ <input type="tel" name="" id="num" placeholder="number" required>
+ <label for="" id="numerror"> Number must have 10 digits </label>
 </div>
 
 <div class="formgroup">
@@ -58,19 +65,15 @@
 
 <div class="formgroup">
         <label for="">email</label>
-    <input type="email" name="" id="" placeholder="email" required>
+    <input type="email" name="" id="email" placeholder="example@gmail.com" required>
+    <label for="" id="Eerror">This field is required</label>
  </div>
 
     <button onclick="btn()">Submit</button>
     
 </form>
 </div>
-<script>
+<script src="jqueryy.js"></script>
 
-    function btn(){
-        alert("Registrtaion sucsessfull")
-        
-    }
-</script>
 </body>
 </html>

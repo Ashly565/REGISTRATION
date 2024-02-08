@@ -14,7 +14,7 @@ body{
     background-color: white;
     width: 400px;
     padding: 20px;
-    height:680px;
+    height:720px;
     border-radius: 6px;
     margin-top: 10px;
 }
@@ -52,4 +52,38 @@ background-color: blue;
 color: white;
 
 }
+#usererror{
+    display: none;
+    color: red;
+}
 
+#passerror{
+    display: none;
+    color: red;
+}
+#cpasserror{
+    display: none;
+    color: red;
+}
+#numerror{
+    display: none;
+    color: red;
+}
+
+#Eerror{
+    display: none;
+    color: red;
+}
+
+
+
+
+
+
+
+
+@media screen and(max-width:400px){
+    .coantainer{
+        width: 400px;
+    }
+}
